@@ -26,6 +26,11 @@ img {
   box-sizing: border-box;
 }
 
+.flex, .qualidades, .preco, .produtos-container, .sobre, .menu-nav ul, .menu, .superinfo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /*Superinfo*/
 .superinfo-bg {
   color: white;
@@ -33,12 +38,10 @@ img {
 }
 
 .superinfo {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 960px;
   margin: 0 auto;
-  padding-top: 10px;
+  max-width: 960px;
+  padding: 10px 0 0 0;
+  justify-content: space-between;
 }
 
 .superinfo a {
@@ -55,12 +58,10 @@ img {
 }
 
 .menu {
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 960px;
   margin: 0 auto;
+  max-width: 960px;
+  padding: 15px 0;
+  align-items: center;
   padding: 15px 0;
 }
 
@@ -73,11 +74,6 @@ img {
   font-size: 2.25em;
   font-weight: bold;
   margin: 0 10px;
-}
-
-.menu-nav ul {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .menu-nav a {
@@ -103,8 +99,6 @@ img {
 .sobre {
   border-top: 2px solid #2c70ff;
   border-bottom: 2px solid #2c70ff;
-  display: flex;
-  flex-wrap: wrap;
   margin: 0 auto;
   max-width: 960px;
   padding: 60px 0;
@@ -144,8 +138,6 @@ img {
 
 .produtos-container {
   align-items: flex-end;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .produtos-item {
@@ -176,8 +168,6 @@ img {
 .preco {
   align-items: flex-end;
   background: #f7f7f7;
-  display: flex;
-  flex-wrap: wrap;
   padding: 60px;
 }
 
@@ -270,8 +260,6 @@ img {
 }
 /* Qualidades */
 .qualidades {
-  display: flex;
-  flex-wrap: wrap;
   margin: 60px auto;
   max-width: 960px;
 }
@@ -323,7 +311,7 @@ img {
   flex-wrap: wrap;
   margin: 0 auto;
   max-width: 960px;
-  padding: 60px 0px;
+  padding: 60px 0;
 }
 
 .newsletter-info {
