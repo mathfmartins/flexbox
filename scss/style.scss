@@ -1,12 +1,4 @@
-$font-family: 'Nunito', Arial, Helvetica, sans-serif;
-$dark-blue: #122ab2;
-$text-color: #222222;
-$light-blue: #2c70ff;
-$dark-grey: #7c7c7c;
-$light-grey: #a4a4a4;
-$ice-white: #f7f7f7;
-$purple: #ae81ff;
-$pink: #f9265e;
+@import 'variables';
 
 @mixin screen-align($padding-value) {
     margin: 0 auto;
